@@ -6,6 +6,7 @@
 }
 
 .container {
+  display: flex;
   background: linear-gradient(135deg, #153677, #4e085f);
   width: 100%;
   min-height: 100vh;
@@ -21,18 +22,31 @@
   border-radius: 10px;
 }
 
-.todo h1 {
+.todo h2 {
   display: flex;
   color: #002765;
   justify-content: center;
   margin-bottom: 20px;
 }
 
-.todo h1 img {
-  width: 30px;
-  margin-left: 30px;
+.currentDate {
+  display: flex;
+  justify-content: center;
+  color: #002765;
+  justify-content: center;
+  margin-bottom: 20px;
 }
 
-.date {
-  align-self: flex-end;
+.todo h2 img {
+  width: 30px;
+  margin-left: 20px;
+}
+
+.row input {
+  margin: 20px 10px;
+  width: 50%;
+}
+
+ul {
+  list-style: none;
 }
