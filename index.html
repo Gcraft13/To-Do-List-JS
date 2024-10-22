@@ -4,10 +4,21 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Greg's To Do List</title>
-    <link rel="stylesheet" href="./script.js" />
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="container"></div>
+    <div class="container">
+      <div class="todo">
+        <h1>To Do List<img src="./images/icon.png" alt="" /></h1>
+        <div class="date">
+          <p class="current-date">currentDate</p>
+        </div>
+        <div class="row">
+          <input type="text" id="input" placeholder="Add your task here" />
+          <button onclick="">Add</button>
+        </div>
+      </div>
+    </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="./script.js"></script>
   </body>
